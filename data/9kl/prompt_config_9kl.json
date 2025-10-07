@@ -1,0 +1,17 @@
+{
+  "student_task_instructions": "Tutvuda alustekstidega ja kirjutada nende põhjal 200-sõnaline kirjand, kus mõtiskleda teismeliste toitumisharjumuste üle. Pealkirjastada kirjand. Kirjutada sissejuhatus, kus püstitada probleem ja sõnastada enda põhiseisukoha. Toetada oma põhiseisukohta vähemalt kahe teemaarenduslõiguga. Igas lõigus esitada alaväide, milles kasutada vähemalt ühte alusteksti näidet. Lisada ka enda näiteid. Kokkuvõttes esitada peamised järeldused.",
+  "grading_scale_instructions": "Grade this on a scale of 0 to 3 points. Keep in mind this is just a text by an Estonian 9th grader. Use the following criteria to asses how many points to award, following this principle: if all the criteria are fulfilled then give 3 points but if something is lacking then lower points as described in this rubric:",
+  "grader_task_template": "Your task is to grade this Estonian 9th grade exam essay kirjand in \"\"\"triple quotes\"\"\" below, using the provided grading rubric. For reference, the student was asked to do the following: \"{student_task_instructions}\" Here you will ONLY grade this aspect:",
+  "response_format_instructions": "First explain your reasoning of relevant rubric criteria VERY brifly using keywords or phrases in Estonian in this comma-separated format:\n\"Seletus: asjaolu: kirjeldus, asjaolu: kirjeldus, ... . Hinne: N\"\nending with N points suitable grade. Express relevant asjaolud like \"probleemile: vastatud\", \"laused: arusaadavad kuid esineb eksimusi\", \"õigekiri: palju puudusi; trükivigu: ei esine\"). Do NOT provide text examples in your reasoning.\nEssay text begins here:\n\n\"\"\"",
+  "aspects": [
+    { "asp_id": "Asp_35", "label": "Pealkiri ja sissejuhatus", "rubric_key": "pealkiri" },
+    { "asp_id": "Asp_25", "label": "Teemaarendus ja alusteksti kasutamine", "rubric_key": "teemaalg" },
+    { "asp_id": "Asp_39", "label": "Teemaarendus ja argumentatsioon", "rubric_key": "teemaarg" },
+    { "asp_id": "Asp_41", "label": "Lõpetus", "rubric_key": "lopetus" },
+    { "asp_id": "Asp_28", "label": "Sõnavalik", "rubric_key": "sonavalik" },
+    { "asp_id": "Asp_40", "label": "Lausemoodustus (ühildumine, sõnajärg, rektsioon)", "rubric_key": "lausemoodustus" },
+    { "asp_id": "Asp_42", "label": "Kirjavahemärgistus", "rubric_key": "kirjavahe" },
+    { "asp_id": "Asp_43", "label": "Õigekiri ja vormimoodustus", "rubric_key": "oigekiri" },
+    { "asp_id": "Asp_34", "label": "Liigendus ja vormistus", "rubric_key": "liigendus" }
+  ]
+}
