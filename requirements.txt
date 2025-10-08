@@ -8,6 +8,7 @@ charset-normalizer==3.4.3
 colorama==0.4.6
 distro==1.9.0
 docstring_parser==0.17.0
+et_xmlfile==2.0.0
 google-ai-generativelanguage==0.6.15
 google-api-core==2.25.2
 google-api-python-client==2.184.0
@@ -25,6 +26,7 @@ idna==3.10
 jiter==0.11.0
 numpy==2.3.3
 openai==2.2.0
+openpyxl==3.1.5
 pandas==2.3.3
 proto-plus==1.26.1
 protobuf==5.29.5
