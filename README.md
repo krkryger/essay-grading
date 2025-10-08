@@ -12,4 +12,4 @@ All of the functions are tucked in `src/grading.py`. You can import them into yo
 
 Currently, the pipeline supports calling OpenAI, Google and Anthropic APIs. To use them, you need to provide API keys in a file called `.env` (see `.env.example` for how it should look like).
 
-The pipeline expects an input file and a grading template in the ´./data/9kl´ folder. To configure LLM instructions, use the config file in the same folder.
+The pipeline expects an input file and a grading template in the `./data/9kl` folder. To configure LLM instructions, use the config file in the same folder.
