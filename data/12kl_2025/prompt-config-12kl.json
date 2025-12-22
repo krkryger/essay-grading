@@ -1,0 +1,26 @@
+{
+  "student_task_instructions": "Kirjuta [etteantud] tekstide põhjal 400-sõnaline arutlev kirjand tänapäeva noorte lugemisharjumuse ja selle võimalike tagajärgede teemal. Kirjutamisel lähtu antud juhistest. Pealkirjasta kirjand. Ava probleem Eesti ühiskonna ja/või üksikisiku seisukohast. Too alusteksti(de)st vähemalt kaks asjakohast näidet, laienda enda mõtetega. Osunda alustekstile tsitaadi või refereeringuga.",
+  "grading_scale_instructions": "Grade this on a scale of 0 to 3 points. This is a text by an Estonian 12th grader for their final riigieksam and should show corresponding effort. Use the following criteria to assess how many points to award, following this principle: if all the criteria are fulfilled then give 3 points but if something is lacking then lower points as described in this rubric:",
+  "grader_task_template": "Your task is to grade this Estonian 12th grade exam essay kirjand in \"\"\"triple quotes\"\"\" below, using the provided grading rubric. For reference, the student was asked to do the following: \"{student_task_instructions}\" Here you will ONLY grade this aspect:",
+  "response_format_instructions": "First explain your reasoning of relevant rubric criteria VERY brifly using keywords or phrases in Estonian in this comma-separated format:\n\"Seletus: asjaolu: kirjeldus, asjaolu: kirjeldus, ... . Hinne: N\"\nending with N points suitable grade. Express relevant asjaolud like \"probleemile: vastatud\", \"laused: arusaadavad kuid esineb eksimusi\", \"õigekiri: palju puudusi; trükivigu: ei esine\"). Do NOT provide text examples in your reasoning.\nEssay text begins here:\n\n\"\"\"",
+  "aspects": [
+  { "asp_id": 0, "label": "Pealkiri", "rubric_key": "pealkiri" },
+  { "asp_id": 1, "label": "Kontekst", "rubric_key": "kontekst" },
+  { "asp_id": 2, "label": "Põhiväide", "rubric_key": "põhiväide" },
+  { "asp_id": 3, "label": "Alaväited", "rubric_key": "alaväited" },
+  { "asp_id": 4, "label": "Näited", "rubric_key": "näited" },
+  { "asp_id": 5, "label": "Järeldused", "rubric_key": "järeldused" },
+  { "asp_id": 6, "label": "Alusteksti kasutamine", "rubric_key": "alusteksti_kasutamine" },
+  { "asp_id": 7, "label": "Probleemile vastamine", "rubric_key": "probleemile_vastamine" },
+  { "asp_id": 8, "label": "Järeldused", "rubric_key": "lõikude_jareldused" },
+  { "asp_id": 9, "label": "Arusaadavus", "rubric_key": "lausete_arusaadavus" },
+  { "asp_id": 10, "label": "Sidusus", "rubric_key": "lausete_sidusus" },
+  { "asp_id": 11, "label": "Eksimused", "rubric_key": "lausestuseksimused" },
+  { "asp_id": 12, "label": "Mitmekesisus", "rubric_key": "mitmekesine_sõnavalik" },
+  { "asp_id": 13, "label": "Kirjakeelsus", "rubric_key": "kirjakeelsus" },
+  { "asp_id": 14, "label": "Sõnastusraskused", "rubric_key": "sõnastusraskused" },
+  { "asp_id": 15, "label": "Kirjavahemärgistus", "rubric_key": "kirjavahemärgistus" },
+  { "asp_id": 16, "label": "Õigekiri ja vormimoodustus", "rubric_key": "õigekiri" },
+  { "asp_id": 17, "label": "Liigendus", "rubric_key": "liigendus" }
+]
+}
