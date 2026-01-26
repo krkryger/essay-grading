@@ -1,0 +1,165 @@
+Features associated with punctuation (Aspect 42):
+"missing_punct" - missing punctuation corrections
+"missing_punct_ratio" - ratio of missing punctuation corrections among all edits made by the grammar correction tool
+"unnecessary_punct" - unnecessary punctuation corrections
+"unnecessary_punct_ratio" - ratio of unnecessary punctuation corrections
+"replaced_punct" - replaced punctuation corrections
+"replaced_punct_ratio" - ratio of replaced punctuation corrections
+
+Features associated with orthography and morphology (Aspect 43):
+"replaced_words" - replaced word corrections
+"replaced_word_ratio" - ratio of replaced word corrections
+"whitespace_errors" - whitespace (compounding) corrections
+"whitespace_error_ratio" - ratio of whitespace corrections
+"misc_errors" - miscellaneous (mixed) corrections
+"misc_error_ratio" - ratio of miscellaneous corrections
+"error_count" - total correction count based on grammar correction output
+"errors_per_word" - total number of corrections per word
+"errors_per_sent" - total number of corrections per sentence
+"spelling_errors" - spelling corrections made by the spell-checker (counted separately from grammar corrections)
+"spell_error_word_ratio" - ratio of spell-corrected words in the text
+
+Features associated with structuring and formatting (Aspect 34):
+"paragraph_count" - number of paragraphs in text
+"mean_word_count" - mean paragraph word count
+"std_word_count" - standard deviation of paragraph word count
+"diff_word_count" - maximum difference of paragraph word count
+"mean_sent_count" - mean paragraph sentence count
+"std_sent_count" - standard deviation of paragraph sentence count
+"diff_sent_count" - maximum difference of paragraph sentence count
+"replaced_words" - replaced word corrections
+"replaced_word_ratio" - ratio of replaced word corrections
+"spelling_errors" - spelling corrections
+"spell_error_word_ratio" - ratio of spell-corrected words in the text
+
+Features associated with syntax (Aspect 40):
+"wordorder_errors" - word order corrections
+"wordorder_error_ratio" - ratio of word order corrections
+"missing_words" - missing word corrections
+"missing_word_ratio" - ratio of missing word corrections
+"unnecessary_words" - unnecessary word corrections
+"unnecessary_word_ratio" - ratio of unnecessary word corrections
+"misc_errors" - miscellaneous (mixed) corrections
+"misc_error_ratio" - ratio of miscellaneous corrections
+"word_len" - mean word length in characters
+"sent_len" - mean sentence length in words
+"LIX" - LIX complexity index
+"SMOG" - SMOG complexity index
+"FK" - Flesch-Kincaid Reading Ease index
+"LD" - lexical density (the proportion of lexical words)
+"SV_ratio" - noun-to-verb ratio
+"F-index" - formality index
+"S_abstr" - average noun abstractness on the scale 1-3
+"rare_5000" - ratio of vocabulary not among 5,000 most frequent Estonian words
+"rare_4000" - ratio of vocabulary not among 4,000 most frequent Estonian words
+"rare_3000" - ratio of vocabulary not among 3,000 most frequent Estonian words
+"rare_2000" - ratio of vocabulary not among 2,000 most frequent Estonian words
+"rare_1000" - ratio of vocabulary not among 1,000 most frequent Estonian words
+"A" - ratio of adjectives
+"D" - ratio of adverbs
+"I" - ratio of interjections
+"J" - ratio of conjunctions
+"K" - ratio of adpositions
+"P" - ratio of pronouns
+"S" - ratio of nouns (substantives)
+"V" - ratio of verbs
+"J_Sub" - ratio of subordinating conjunctions among conjunctions
+"K_Post" - ratio of postpositions among adpositions
+"n_cases" - number of case forms used in text (considering all nominal words)
+"Nom" - ratio of nominative case forms among nominal words
+"Gen" - ratio of genitive case forms
+"Par" - ratio of partitive case forms
+"AddIll" - ratio of illative and additive (short illative) case forms
+"Ill" - ratio of illative case forms 
+"Ine" - ratio of inessive case forms
+"Ela" - ratio of elative case forms
+"All" - ratio of allative case forms
+"Ade" - ratio of adessive case forms
+"Abl" - ratio of ablative case forms
+"Tra" - ratio of translative case forms
+"Ter" - ratio of terminative case forms
+"Ess" - ratio of essive case forms
+"Abe" - ratio of abessive case forms
+"Com" - ratio of comitative case forms
+"Plur" - ratio of plural forms among nominal words
+"S_cases" - number of noun case forms
+"S_Plur" - ratio of plural noun forms
+"A_cases" - number of adjective case forms
+"A_Plur" - ratio of plural adjective forms
+"A_Pos" - ratio of positive adjective forms
+"A_Cmp" - ratio of comparative adjective forms
+"A_Sup" - ratio of superlative adjective forms
+"P_cases" - number of pronoun case forms
+"P_Plur" - ratio of plural pronoun forms
+"P_IntRel" - ratio of interrogative-relative pronouns
+"V_Fin" - ratio of finite verb forms
+"V_Ind" - ratio of indicative verb forms
+"V_Cnd" - ratio of conditional verb forms
+"V_Imp" - ratio of imperative verb forms
+"V_Prs1" - ratio of 1st person verb forms
+"V_Prs2" - ratio of 2nd person verb forms
+"V_Prs3" - ratio of 3rd person verb forms
+"V_Pres" - ratio of present tense verb forms
+"V_Past" - ratio of past tense verb forms
+"V_Sing" - ratio of singular verb forms
+"V_Plur" - ratio of plural verb forms (does not duplicate the ratio of singular forms, since some verb forms are not finite)
+"V_Neg" - ratio of negative verb forms (includes both finite verbs and negation particles)
+"V_Pass" - ratio of passive verb forms
+"V_NonFin" - ratio of all nonfinite verb forms
+"V_Inf" - ratio of infinitive verb forms
+"V_Part" - ratio of participle verb forms
+"V_Conv" - ratio of gerund verb forms
+
+Features associated with vocabulary (Aspect 28):
+"replaced_words" - replaced word corrections
+"replaced_word_ratio" - ratio of replaced word corrections
+"missing_words" - missing word corrections
+"missing_word_ratio" - ratio of missing word corrections
+"unnecessary_words" - unnecessary word corrections
+"unnecessary_word_ratio" - ratio of unnecessary word corrections
+"wordorder_errors" - word order corrections
+"wordorder_error_ratio" - ratio of word order corrections
+"misc_errors" - miscellaneous (mixed) corrections
+"misc_error_ratio" - ratio of miscellaneous corrections
+"lemma_count" - number of unique words (lemmas)
+"TTR" - type-token ratio (lemmas are considered as types)
+"RTTR" - root type-token ratio (Guiraud index)
+"Uber" - Uber index of lexical diversity
+"Maas" - Maas index of lexical diversity
+"MTLD" - Measure of Textual Lexical Diversity
+"CVV" - corrected verb variation
+"A_TTR" - adjective TTR
+"D_TTR" - adverb TTR
+"J_TTR" - conjunction TTR
+"K_TTR" - adposition TTR
+"P_TTR" - pronoun TTR
+"S_TTR" - noun TTR
+"V_TTR" - verb TTR
+"LD" - lexical density (the proportion of lexical words)
+"SV_ratio" - noun-to-verb ratio
+"F-index" - formality index
+"S_abstr" - average noun abstractness on the scale 1-3
+"rare_5000" - ratio of vocabulary not among 5,000 most frequent Estonian words
+"rare_4000" - ratio of vocabulary not among 4,000 most frequent Estonian words
+"rare_3000" - ratio of vocabulary not among 3,000 most frequent Estonian words
+"rare_2000" - ratio of vocabulary not among 2,000 most frequent Estonian words
+"rare_1000" - ratio of vocabulary not among 1,000 most frequent Estonian words
+"A" - ratio of adjectives
+"D" - ratio of adverbs
+"I" - ratio of interjections
+"J" - ratio of conjunctions
+"K" - ratio of adpositions
+"P" - ratio of pronouns
+"S" - ratio of nouns (substantives)
+"V" - ratio of verbs
+"J_Sub" - ratio of subordinating conjunctions among conjunctions
+"K_Post" - ratio of postpositions among adpositions
+"P_Prs" - ratio of personal pronouns
+"P_Reflex" - ratio of reflexive pronouns
+"P_Dem" - ratio of demonstrative pronouns
+"P_Ind" - ratio of indefinite pronouns
+"P_IntRel" - ratio of interrogative-relative pronouns
+"V_Prs1" - ratio of 1st person verb forms
+"V_Prs2" - ratio of 2nd person verb forms
+"V_Prs3" - ratio of 3rd person verb forms
+"word_len" - mean word length in characters

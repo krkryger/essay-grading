@@ -1,0 +1,120 @@
+Number of features in model: 1
+
+Linear Regression:
+MAE averaged over 10-fold CV: 0.6734439007154107
+SD of the MAE scores: 0.040317959875601286
+
+Ridge Regression:
+MAE averaged over 10-fold CV: 0.6736593237899023
+SD of the MAE scores: 0.04032826300252288
+
+Lasso Regression:
+MAE averaged over 10-fold CV: 0.9227888432329833
+SD of the MAE scores: 0.05956563864980151
+
+Elastic Net:
+MAE averaged over 10-fold CV: 0.8851154376574666
+SD of the MAE scores: 0.05794099165069303
+
+Support Vector Regression:
+MAE averaged over 10-fold CV: 0.5763132330215694
+SD of the MAE scores: 0.055050989055997465
+
+Random Forest Regression:
+MAE averaged over 10-fold CV: 0.5895961882675026
+SD of the MAE scores: 0.05149083670895525
+
+Decision Tree Regression:
+MAE averaged over 10-fold CV: 0.5868886158485102
+SD of the MAE scores: 0.05128972696026917
+
+Number of features in model: 2
+
+Linear Regression:
+MAE averaged over 10-fold CV: 0.6244042425101033
+SD of the MAE scores: 0.04946423398201947
+
+Ridge Regression:
+MAE averaged over 10-fold CV: 0.6246707323585069
+SD of the MAE scores: 0.049473515391896206
+
+Lasso Regression:
+MAE averaged over 10-fold CV: 0.9227888432329833
+SD of the MAE scores: 0.05956563864980151
+
+Elastic Net:
+MAE averaged over 10-fold CV: 0.8851154376574666
+SD of the MAE scores: 0.05794099165069303
+
+Support Vector Regression:
+MAE averaged over 10-fold CV: 0.5176435413217075
+SD of the MAE scores: 0.05022252614055158
+
+Random Forest Regression:
+MAE averaged over 10-fold CV: 0.557626534266031
+SD of the MAE scores: 0.05946606438461383
+
+Decision Tree Regression:
+MAE averaged over 10-fold CV: 0.5611652432971438
+SD of the MAE scores: 0.061952883411701964
+
+Number of features in model: 3
+
+Linear Regression:
+MAE averaged over 10-fold CV: 0.6206982741517505
+SD of the MAE scores: 0.05191890649201036
+
+Ridge Regression:
+MAE averaged over 10-fold CV: 0.6209646523590499
+SD of the MAE scores: 0.05192992167217954
+
+Lasso Regression:
+MAE averaged over 10-fold CV: 0.9227888432329833
+SD of the MAE scores: 0.05956563864980151
+
+Elastic Net:
+MAE averaged over 10-fold CV: 0.8851154376574666
+SD of the MAE scores: 0.05794099165069303
+
+Support Vector Regression:
+MAE averaged over 10-fold CV: 0.5133670502007558
+SD of the MAE scores: 0.049870066205268106
+
+Random Forest Regression:
+MAE averaged over 10-fold CV: 0.5522710752676208
+SD of the MAE scores: 0.053610513737466566
+
+Decision Tree Regression:
+MAE averaged over 10-fold CV: 0.5557352834151211
+SD of the MAE scores: 0.061472440761927656
+
+Number of features in model: 4
+
+Linear Regression:
+MAE averaged over 10-fold CV: 0.6195722603146764
+SD of the MAE scores: 0.05047599129449934
+
+Ridge Regression:
+MAE averaged over 10-fold CV: 0.6198462466868285
+SD of the MAE scores: 0.05048708429216427
+
+Lasso Regression:
+MAE averaged over 10-fold CV: 0.9227888432329833
+SD of the MAE scores: 0.05956563864980151
+
+Elastic Net:
+MAE averaged over 10-fold CV: 0.8851154376574666
+SD of the MAE scores: 0.05794099165069303
+
+Support Vector Regression:
+MAE averaged over 10-fold CV: 0.514770239737424
+SD of the MAE scores: 0.051758945204814846
+
+Random Forest Regression:
+MAE averaged over 10-fold CV: 0.5531944336006929
+SD of the MAE scores: 0.0560728832189063
+
+Decision Tree Regression:
+MAE averaged over 10-fold CV: 0.5634592801391178
+SD of the MAE scores: 0.06608105154961147
+

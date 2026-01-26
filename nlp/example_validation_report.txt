@@ -1,0 +1,9 @@
+Predicted feature: Asp_42_Average
+Regressor: SVR()
+Number of features: 3
+MAE averaged over 10-fold CV: 0.5133670502007558
+SD of the MAE scores: 0.049870066205268106
+MAE scores of each CV fold:
+[0.4655837198740186, 0.46836766846859984, 0.5488673152017037, 0.5190746747287697, 0.5023227381674141, 0.5502754339402071, 0.43346430642867295, 0.6040003842312093, 0.5379877580254758, 0.5037265029414865]
+Features selected:
+[['unnecessary_punct', 'missing_punct', 'replaced_punct'], ['unnecessary_punct', 'missing_punct', 'replaced_punct'], ['unnecessary_punct', 'missing_punct', 'replaced_punct'], ['unnecessary_punct', 'missing_punct', 'replaced_punct'], ['unnecessary_punct', 'missing_punct', 'replaced_punct'], ['unnecessary_punct', 'missing_punct', 'replaced_punct'], ['unnecessary_punct', 'missing_punct', 'replaced_punct'], ['unnecessary_punct', 'missing_punct', 'replaced_punct'], ['unnecessary_punct', 'missing_punct', 'replaced_punct'], ['unnecessary_punct', 'missing_punct', 'replaced_punct']]
