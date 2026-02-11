@@ -12,7 +12,6 @@ The feature sets can be imported from "feat_lists_9th_grade.py" and "feat_lists_
 import statistics
 import numpy as np
 import pandas as pd
-import feat_lists_12th_grade # If working with 9th grade data, import 'feat_lists_12th_grade'
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import StandardScaler
 from sklearn.feature_selection import SelectKBest
@@ -22,6 +21,7 @@ from sklearn.svm import SVR
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_absolute_error
+import feat_lists_12th_grade # If working with 9th grade data, import 'feat_lists_12th_grade'
 
 # Defining the feature set and target feature
 feats = feat_lists_12th_grade.punct_feats
